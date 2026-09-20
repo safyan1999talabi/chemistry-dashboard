@@ -1,0 +1,10 @@
+{
+  "name": "chimlab-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix app run dev -- --host 127.0.0.1 --port 3000",
+    "build": "npm --prefix app run build",
+    "lint": "npm --prefix app run lint",
+    "preview": "npm --prefix app run preview -- --host 127.0.0.1 --port 4173"
+  }
+}
